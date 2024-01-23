@@ -84,11 +84,12 @@ class _HomeBodyState extends State<HomeBody> {
                   },
                   title: Text(snapshot.data![index].username),
                   subtitle: Text(
-                    snapshot.data![index].name,
+                    snapshot.data![index].email,
                     maxLines: 2,
+                    
                   ),
-                  leading: Text(snapshot.data![index].id
-                      .toString()), //convert int to string
+                  
+                  leading: const Icon(Icons.people) //convert int to string
                 );
               },
             );

@@ -15,7 +15,7 @@ class UserScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          title: const Text('Home Screen'),
+          title: const Text('Edit Users'),
         ),
         body: usersname(users: users),
       );
